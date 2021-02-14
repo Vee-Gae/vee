@@ -66,7 +66,7 @@ class Content extends React.Component {
                 <div className="section-intro lead">
                     <b>Welcome!</b> This is the homepage of <b>Vee</b> (Not really, Sin did this)!
                 </div>
-                <div className="container border section-what">
+                <div className="container border rounded my-3 section-what">
                     <span className="h3">
                         What's that?
                     </span>
@@ -74,7 +74,7 @@ class Content extends React.Component {
                         Vee is a human (I think) that is an asshole and really likes to destroy stuff. <a href="/vee/info">Read more...</a>
                     </div>
                 </div>
-                <div className="container border section-penis">
+                <div className="container border rounded my-3 section-penis">
                     <span className="h3">
                         PENIS.
                     </span>
@@ -82,7 +82,7 @@ class Content extends React.Component {
                         he does not have that lmao <a href="/vee/penis">Read more...</a>
                     </div>
                 </div>
-                <div className="container border section-help">
+                <div className="container border rounded my-3 section-help">
                     <span className="h3">
                         You know more about him?
                     </span>
@@ -98,8 +98,8 @@ class Content extends React.Component {
 class Footer extends React.Component {
     render() {
         return (
-            <div className="container border">
-                <div className="text-center">
+            <div className="container">
+                <div className="text-center text-muted">
                     <a href="https://github.com/Vee-Gae/vee" target="_blank" rel="noopener noreferrer">
                         View on GitHub
                     </a><br />
