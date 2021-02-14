@@ -71,7 +71,7 @@ class Content extends React.Component {
                         What's that?
                     </span>
                     <div className="section-content">
-                        Vee is a human (I think) that is an asshole and really likes to destroy stuff. <a href="/vee/info">Read more...</a>
+                        Vee is a human (I think) that is an idiot and really likes to destroy stuff. <a href="/vee/info">Read more...</a>
                     </div>
                 </div>
                 <div className="container border rounded my-3 p-4 section-penis">
