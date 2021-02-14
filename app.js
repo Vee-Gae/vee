@@ -40,7 +40,7 @@ class Navbar extends React.Component {
                     <a
                       className="nav-link disabled"
                       href="/vee/not-gae"
-                      tabindex="-1"
+                      tabIndex="-1"
                       aria-disabled="true"
                     >
                       if you can click this vee is not gae
