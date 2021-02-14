@@ -57,7 +57,7 @@ class Navbar extends React.Component {
 class Content extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="mt-4 container">
                 <div className="title">
                     <span className="h1">
                         Vee - Homepage
