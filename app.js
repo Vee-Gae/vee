@@ -57,16 +57,16 @@ class Navbar extends React.Component {
 class Content extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="mt-4 container">
                 <div className="title">
                     <span className="h1">
                         Vee - Homepage
                     </span>
                 </div>
-                <div className="section-intro lead">
+                <div className="section-intro lead mb-4">
                     <b>Welcome!</b> This is the homepage of <b>Vee</b> (Not really, Sin did this)!
                 </div>
-                <div className="container border rounded my-3 section-what">
+                <div className="container border rounded my-3 p-4 section-what">
                     <span className="h3">
                         What's that?
                     </span>
@@ -74,7 +74,7 @@ class Content extends React.Component {
                         Vee is a human (I think) that is an asshole and really likes to destroy stuff. <a href="/vee/info">Read more...</a>
                     </div>
                 </div>
-                <div className="container border rounded my-3 section-penis">
+                <div className="container border rounded my-3 p-4 section-penis">
                     <span className="h3">
                         PENIS.
                     </span>
@@ -82,7 +82,7 @@ class Content extends React.Component {
                         he does not have that lmao <a href="/vee/penis">Read more...</a>
                     </div>
                 </div>
-                <div className="container border rounded my-3 section-help">
+                <div className="container border rounded my-3 p-4 section-help">
                     <span className="h3">
                         You know more about him?
                     </span>
