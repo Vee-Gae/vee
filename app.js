@@ -207,11 +207,14 @@ class Comments extends React.Component {
     }
     render() {
         return (
-            <div className="container border rounded my-3 p-4 section-comments">
-                <div className="comment-section">
+            <div className="container">
+                <div className="container border rounded my-3 p-4 section-comments">
+                    <div className="comment-section" style={{width: 'auto', margin: 'auto'}}>
                 
+                    </div>
                 </div>
             </div>
+
         )
     }
 }
