@@ -191,6 +191,22 @@ class ContentInfo extends React.Component {
     }
 }
 
+class Comments extends React.Component {
+    render() {
+        return (
+            <div className="comment-section">
+                <script>
+                var idcomments_acct = 'f24111278cfa2a7dfdf9358009aec410';
+                var idcomments_post_id;
+                var idcomments_post_url;
+                </script>
+                <span id="IDCommentsPostTitle" style={{display:"none"}}></span>
+                <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+            </div>
+        )
+    }
+}
+
 class Footer extends React.Component {
     render() {
         return (
@@ -231,6 +247,7 @@ let render = function (name) {
             <div>
                 <Navbar />
                 <ContentInfo />
+                <Comments />
                 <Footer />
             </div>,
             window.domContainer
