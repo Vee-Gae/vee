@@ -235,7 +235,6 @@ class Footer extends React.Component {
     }
 }
 
-
 let render = function (name) {
     var names = ['index', 'info'];
 
@@ -293,6 +292,13 @@ let h = function () {
     });
 }
 
+let bodyLoad = function (e) {
+    if(typeof h === "function") h();
+    console.info('Called bodyLoad event.')
+    console.info(e);
+}
+
+document.body.addEventListener("load", bodyLoad)
 
 // Stop looking at the code and grab something to eat
 // This is not for the GitHub people
