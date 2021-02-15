@@ -202,14 +202,15 @@ class Comments extends React.Component {
         intenseDebateScript2.type = "text/javascript";
         intenseDebateScript2.src = "https://www.intensedebate.com/js/genericCommentWrapperV2.js";
 
-        commentContainer
-        .appendChild(intenseDebateScript)
-        .appendChild(intenseDebateScript2)
+        commentContainer.appendChild(intenseDebateScript)
+        commentContainer.appendChild(intenseDebateScript2)
     }
     render() {
         return (
-            <div className="container comment-section">
+            <div className="container border rounded my-3 p-4 section-comments">
+                <div className="comment-section">
                 
+                </div>
             </div>
         )
     }
