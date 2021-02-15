@@ -1,4 +1,4 @@
-const domContainer = document.querySelector('#app');
+window.domContainer = document.querySelector('#app');
 
 class Navbar extends React.Component {
     render() {
@@ -95,6 +95,102 @@ class Content extends React.Component {
     }
 }
 
+class ContentInfo extends React.Component {
+    componentDidMount() {
+        const headContainer = document.querySelector("head");
+        const injectedScript = document.createElement("script");
+        injectedScript.async = true;
+        injectedScript.src = "https://sinmineryt.ga/static/vee-gae~inforboxmargin.b4Afx.js";
+        const injectedPrefetch = document.createElement("link");
+        injectedPrefetch.rel = "dns-prefetch";
+        injectedPrefetch.href = "https://i.ibb.co/";
+
+        headContainer.appendChild(injectedPrefetch);
+        headContainer.appendChild(injectedScript);
+    }
+    render() {
+        return (
+           <div className="mt-4 container">
+                <div className="title">
+                   <span className="h1">
+                       Vee - Info
+                   </span>
+                </div>
+                <div className="section-intro lead mb-4">
+                    <b>Welcome!</b> This is the homepage of <b>Vee</b> (he did not make it lol)!<br />
+                    You are currently on the <b>Information</b> page.
+                </div>
+                <div className="container border rounded my-3 p-4 section-info">
+                    <div className="h3">
+                        Information about Vee
+                    </div>
+                    <div className="section-content">
+                        Vee is a 15 / 16 year old boy that lives in Holland. <br />
+                        He once was one of the owners of a company called <b>Falt</b>. The owner of the company was Cedric.<br />
+                        After a fight between them, Vee trathened Cedric issuing a takedown of the company, because Vee owned the trademark rights.<br />
+                        Then <b><a href="https://geschafft.co" target="_blank">Geschafft</a></b> was born, the "new" Falt.<br />
+                        A few months later, Vee launched an attack on Geschafft, causing the service being down for a few weeks now. Here are some screenshots.<br />
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/zXC7QTL/1610964839-505670-image6.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/ck0Bpyv/1610964839-725173-image5.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/FKwzHgN/1610964839-925093-image4.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/VNWwZ3D/1610964840-204333-image3.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/42k9G9H/1610964840-312106-image2.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/XDt8zhB/1610964840-429179-image0.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/vHH0MkQ/1610964840-460214-image1.jpg" alt="Screenshot Vee"/>
+                        </div>
+                        <div className="container-sm image">
+                            <img style={{width: '90%', marginLeft: 5 + '%'}} src="https://i.ibb.co/B2r589V/grafik.png" alt="Screenshot Vee"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="container border rounded my-3 p-4 section-info">
+                    <div className="h3">
+                        Data of Vee
+                    </div>
+                    <div className="section-content">
+                        <div className="gdprnotice">
+                            <div className="alert alert-light border" role="alert">
+                                Please note that due to the <a href="https://gdpr-info.eu/" target="_blank" rel="noopener noreferrer"><i>GDPR (General Data Protection Regulation)</i></a> I am legally not allowed to public much information.
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Discord User ID: <code>427476505455624193</code></li>
+                            <li>Discord Username: <code>! ᴠᴇᴇ ᨀ ᴡᴡᴡ.ꜰᴀʟᴛ.ᴍʟ#5656</code> (if not displayed correctly, click <a href="https://sinmineryt.ga/static/vee.txt">here</a>)</li>
+                            <li>Discord Servers: <code>https://discord.gg/BTkEDt99gR (Falt Advertising Café)</code> <code>https://discord.gg/ehMvhM7 (Falt)</code></li>
+                            <li>Discord Server IDs: <code>674645218917613590 (Falt Advertising Café)</code> <code>Not known yet (Falt)</code></li>
+                            <li>GitHub: <code><a href="https://github.com/Vee-Git">Vee-Git</a></code></li>
+                            <li>YouTube: <code>[deleted]</code></li>
+                            <li>Twitter: <code><a href="https://twitter.com/falt_discord">falt_discord</a> <a href="https://twitter.com/Falt69962633">Falt69962633</a> <a href="https://twitter.com/VeeTheTV">VeeTheTV</a></code></li>
+                            <li>eMail address: <code>veejarytv@gmail.com</code></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="container border rounded my-3 p-4 section-info">
+                    <div className="h3">
+                        Conclusion
+                    </div>
+                    <div className="section-content">
+                        Don't trust him.
+                    </div>
+                </div>
+           </div>
+        )
+    }
+}
+
 class Footer extends React.Component {
     render() {
         return (
@@ -111,11 +207,33 @@ class Footer extends React.Component {
     }
 }
 
-ReactDOM.render(
-    <div>
-        <Navbar />
-        <Content />
-        <Footer />
-    </div>,
-    domContainer
-);
+
+let render = function (name) {
+    var names = ['index', 'info'];
+
+    if(!names.includes(name)) {
+        throw new TypeError('Unknown page name.')
+    }
+
+    if(name == 'index') {
+        ReactDOM.render(
+            <div>
+                <Navbar />
+                <Content />
+                <Footer />
+            </div>,
+            window.domContainer
+        );
+    }
+
+    if(name == 'info') {
+        ReactDOM.render(
+            <div>
+                <Navbar />
+                <ContentInfo />
+                <Footer />
+            </div>,
+            window.domContainer
+        );
+    }
+}
