@@ -170,7 +170,7 @@ class ContentInfo extends React.Component {
                             <li>Discord User ID: <code>427476505455624193</code></li>
                             <li>Discord Username: <code>! ᴠᴇᴇ ᨀ ᴡᴡᴡ.ꜰᴀʟᴛ.ᴍʟ#5656</code> (if not displayed correctly, click <a href="https://sinmineryt.ga/static/vee.txt">here</a>)</li>
                             <li>Discord Servers: <code>https://discord.gg/BTkEDt99gR (Falt Advertising Café)</code> <code>https://discord.gg/ehMvhM7 (Falt)</code></li>
-                            <li>Discord Server IDs: <code>674645218917613590 (Falt Advertising Café)</code> <code>Not known yet (Falt)</code></li>
+                            <li>Discord Server IDs: <code>674645218917613590 (Falt Advertising Café)</code> <code>617433050246021120 (Falt)</code></li>
                             <li>GitHub: <code><a href="https://github.com/Vee-Git">Vee-Git</a></code></li>
                             <li>YouTube: <code>[deleted]</code></li>
                             <li>Twitter: <code><a href="https://twitter.com/falt_discord">falt_discord</a> <a href="https://twitter.com/Falt69962633">Falt69962633</a> <a href="https://twitter.com/VeeTheTV">VeeTheTV</a></code></li>
