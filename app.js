@@ -192,13 +192,25 @@ class ContentInfo extends React.Component {
 }
 
 class Comments extends React.Component {
+    componentDidMount() {
+        const commentContainer = document.querySelector('.comment-section');
+        
+        const intenseDebateScript = document.createElement('script');
+        const intenseDebateScript2 = document.createElement('script');
+        
+        intenseDebateScript.innerHTML = "var idcomments_acct = 'f24111278cfa2a7dfdf9358009aec410';var idcomments_post_id;var idcomments_post_url;";
+        intenseDebateScript2.type = "text/javascript";
+        intenseDebateScript2.src = "https://www.intensedebate.com/js/genericCommentWrapperV2.js";
+
+        commentContainer
+        .appendChild(intenseDebateScript)
+        .appendChild(intenseDebateScript2)
+    }
     render() {
         return (
             <div className="comment-section">
                 <script>
-                var idcomments_acct = 'f24111278cfa2a7dfdf9358009aec410';
-                var idcomments_post_id;
-                var idcomments_post_url;
+
                 </script>
                 <span id="IDCommentsPostTitle" style={{display:"none"}}></span>
                 <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
