@@ -208,12 +208,8 @@ class Comments extends React.Component {
     }
     render() {
         return (
-            <div className="comment-section">
-                <script>
-
-                </script>
-                <span id="IDCommentsPostTitle" style={{display:"none"}}></span>
-                <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+            <div className="container comment-section">
+                
             </div>
         )
     }
