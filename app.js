@@ -22,17 +22,17 @@ class Navbar extends React.Component {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/vee">
+                    <a className="nav-link active" aria-current="page" href="/">
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/vee/info">
+                    <a className="nav-link" href="/info">
                       What's that?
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/vee/penis">
+                    <a className="nav-link" href="/penis">
                       PENIS.
                     </a>
                   </li>
@@ -71,7 +71,7 @@ class Content extends React.Component {
                         What's that?
                     </span>
                     <div className="section-content">
-                        Vee is a human (I think) that is an idiot and really likes to destroy stuff. <a href="/vee/info">Read more...</a>
+                        Vee is a human (I think) that is an idiot and really likes to destroy stuff. <a href="/info">Read more...</a>
                     </div>
                 </div>
                 <div className="container border rounded my-3 p-4 section-penis">
@@ -79,7 +79,7 @@ class Content extends React.Component {
                         PENIS.
                     </span>
                     <div className="section-content">
-                        he does not have that lmao <a href="/vee/penis">Read more...</a>
+                        he does not have that lmao <a href="/penis">Read more...</a>
                     </div>
                 </div>
                 <div className="container border rounded my-3 p-4 section-help">
