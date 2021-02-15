@@ -64,7 +64,7 @@ class Content extends React.Component {
                     </span>
                 </div>
                 <div className="section-intro lead mb-4">
-                    <b>Welcome!</b> This is the homepage of <b>Vee</b> (Not really, Sin did this)!
+                    <b>Welcome!</b> This is the homepage of <b>Vee</b> (he did not make it lol)!
                 </div>
                 <div className="container border rounded my-3 p-4 section-what">
                     <span className="h3">
