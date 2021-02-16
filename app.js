@@ -298,7 +298,8 @@ let bodyLoad = function (e) {
     console.info(e);
 }
 
-document.body.addEventListener("load", bodyLoad)
+$('body').on('load', bodyLoad);
+// document.body.addEventListener("load", bodyLoad)
 
 // Stop looking at the code and grab something to eat
 // This is not for the GitHub people
